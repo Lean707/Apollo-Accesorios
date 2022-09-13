@@ -6,23 +6,26 @@
 
 .seccionTitulo{
     display: flex;
-    height: 200px;
-    width: 1380px;
-    align-content: center;
-    justify-content: center;
-    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+    /*border-bottom: 4px inset grey;*/
+    box-shadow: 15px 3px 21px 4px rgba(48,41,41,0.52);
+    background-image: url(http://4.bp.blogspot.com/-j2w5euXEHUw/UMsrcERPv8I/AAAAAAAAEMU/Jtujxf9s3yg/s1600/Encabezado%2Bpara%2Btwitter%2Bde%2Blineas%2Babstractas.jpg);
 
 }
 
 .menuinicial{ 
     display: flex;
-    background-color:sienna;
+    background-color:burlywood;
     align-items: center;
     width: 100%;
     height: 60px;
     /*justify-content: space-around;*/
     color: antiquewhite;
-    position: fixed;
+    position: sticky;
 }
 .logo{
     display: flex;
@@ -76,10 +79,80 @@
 
 
 .tituloProductos{
+    /*display: flex;
+    align-content:center;
+    justify-content: flex-start;*/
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    z-index: 2;
+    color:thistle;
+}
+.grillaProductos{
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(3, 250px);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-items: space-around;
+    /*align-content: end;*/
+}
+
+.grillaProductos div{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.cuerpoproductos{
+    width: 100%;
     display: flex;
-    align-content: center;
+    justify-content: space-around;
+    background-color: silver;
+}
+/*
+.menu2{
+    position: static;
+    border: 3px solid salmon;
+}
+.menu2 span{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+*/
+.item img{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 50px;
+}
+
+.nombreproducto{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.descripcionproducto {
+    display: flex;
     justify-content: center;
-    font-size: 70px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.piedepagina nav{
+    display: flex;
+    list-style-type: none;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    justify-content: space-around;
+    align-items: center;
+}
+.piedepagina nav li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+
 }
