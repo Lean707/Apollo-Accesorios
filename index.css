@@ -5,13 +5,13 @@
 }
 .menuinicial{ 
     display: flex;
-    background-color:sienna;
+    background-color:burlywood;
     align-items: center;
     width: 100%;
     height: 60px;
     /*justify-content: space-around;*/
     color: antiquewhite;
-    position: fixed;
+    position: sticky; /*con sticky los demas elementos lo respetan a el y su posicion*/
 }
 .logo{
     display: flex;
@@ -60,21 +60,44 @@
 
 .opciones li:hover{
     background-color: white;
-    color: sienna;
+    color: burlywood;
 }
 
 .portada{
     display: flex;
     justify-content: space-around;
+    position: relative; /**/ 
+    position: sticky;
     /*text-align: center;*/
+}
+.portada img{
+    width: 50%;
 }
 
 .titulo{
     /*display: flex;*/
     height: fit-content;
     width: fit-content;
-    position: relative;
-    top:500px;
-    z-index: 2;
-    right: 800px;
+    position: absolute; /*Con absolute los demas elementos del HTML, no le guardan un espacio pese a ser movido*/ 
+    top: 70px;
+    left: 550px;
+    font-family: "Parisienne", "Caveat";
+    font-size: 50px;
+    color: beige;
+}
+
+.piedepagina nav{
+    display: flex;
+    list-style-type: none;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    justify-content: space-around;
+    align-items: center;
+}
+.piedepagina nav li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+
 }
