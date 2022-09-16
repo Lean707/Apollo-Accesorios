@@ -1,0 +1,60 @@
+.menuinicial{ 
+    display: flex;
+    background-color:burlywood;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /*justify-content: space-around;*/
+    color: antiquewhite;
+    position: sticky; /*con sticky los demas elementos lo respetan a el y su posicion*/
+}
+.logo{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+    margin-left: 50px;
+    font-size: 20px;   
+}
+.opciones{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.opciones li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    /*border-left: 2px solid black;*/
+    text-decoration: underline;
+}
+.face{
+    font-size: 20px;
+    margin: 5px;
+    color: aliceblue;
+}
+.twitter{
+    font-size: 20px;
+    margin:5px;
+    color: aliceblue;
+}
+.instagram{
+    font-size: 20px;
+    margin:5px;
+    margin-right: 15px;
+    color: aliceblue;
+}
+
+.opciones li:hover{
+    background-color: white;
+    color: burlywood;
+}
+

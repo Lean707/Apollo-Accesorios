@@ -1,0 +1,16 @@
+
+.piedepagina nav{
+    display: flex;
+    list-style-type: none;
+    height: 100px;
+    width: 100%;
+    background-color: burlywood;
+    justify-content: space-around;
+    align-items: center;
+}
+.piedepagina nav li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+
+}

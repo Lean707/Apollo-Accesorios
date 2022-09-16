@@ -1,67 +1,3 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.menuinicial{ 
-    display: flex;
-    background-color:burlywood;
-    align-items: center;
-    width: 100%;
-    height: 60px;
-    /*justify-content: space-around;*/
-    color: antiquewhite;
-    position: sticky; /*con sticky los demas elementos lo respetan a el y su posicion*/
-}
-.logo{
-    display: flex;
-    width: 60%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 250px;
-    margin-left: 50px;
-    font-size: 20px;   
-}
-.opciones{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    width: 100%;
-    height: 100%;
-    justify-content: space-around;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.opciones li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    /*border-left: 2px solid black;*/
-    text-decoration: underline;
-}
-.face{
-    font-size: 20px;
-    margin: 5px;
-    color: aliceblue;
-}
-.twitter{
-    font-size: 20px;
-    margin:5px;
-    color: aliceblue;
-}
-.instagram{
-    font-size: 20px;
-    margin:5px;
-    margin-right: 15px;
-    color: aliceblue;
-}
-
-.opciones li:hover{
-    background-color: white;
-    color: burlywood;
-}
 
 .portada{
     display: flex;
@@ -86,18 +22,12 @@
     color: beige;
 }
 
-.piedepagina nav{
-    display: flex;
-    list-style-type: none;
-    height: 100px;
-    width: 100%;
-    background-color: burlywood;
-    justify-content: space-around;
-    align-items: center;
-}
-.piedepagina nav li{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    color: aliceblue;
-
+@media(max-width:980px){
+    .body{
+        width: 100%;
+        height:auto;
+    }
+    .portada span {
+        justify-content: flex-start;
+    }
 }
