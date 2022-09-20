@@ -1,9 +1,9 @@
-.menuinicial{ 
+.menuinicial { 
     display: flex;
     background-color:burlywood;
     align-items: center;
+    height: 70px;
     width: 100%;
-    height: 60px;
     /*justify-content: space-around;*/
     color: antiquewhite;
     position: sticky; /*con sticky los demas elementos lo respetan a el y su posicion*/
@@ -31,11 +31,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    /*height: 100%;*/
     width: 100%;
     /*border-left: 2px solid black;*/
     text-decoration: underline;
 }
+/*
+.social li{
+    display: flex;
+    /*justify-content: space-around;*/
+
 .face{
     font-size: 20px;
     margin: 5px;

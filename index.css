@@ -22,14 +22,18 @@
     color: beige;
 }
 
-@media (max-width:980px) {
+@media (max-width:1160px) {
     .portada{
-        width: fit-content;
+        /*width: fit-content;*/
         display: flex;
         align-items:flex-start;
     }
     .portada img{
-        height: 50%;
-        width: auto;
+       width: 50%;
+    }
+    .piedepagina{
+        width:100%;
+        height: auto;
+
     }
 }
