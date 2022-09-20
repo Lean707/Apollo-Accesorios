@@ -15,19 +15,21 @@
     height: fit-content;
     width: fit-content;
     position: absolute; /*Con absolute los demas elementos del HTML, no le guardan un espacio pese a ser movido*/ 
-    top: 70px;
-    left: 550px;
+    top: 15%;
+    left: 30%;
     font-family: "Parisienne", "Caveat";
     font-size: 50px;
     color: beige;
 }
 
-@media(max-width:980px){
-    .body{
-        width: 100%;
-        height:auto;
+@media (max-width:980px) {
+    .portada{
+        width: fit-content;
+        display: flex;
+        align-items:flex-start;
     }
-    .portada span {
-        justify-content: flex-start;
+    .portada img{
+        height: 50%;
+        width: auto;
     }
 }

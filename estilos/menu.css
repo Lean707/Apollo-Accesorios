@@ -13,8 +13,8 @@
     width: 60%;
     justify-content: center;
     align-items: center;
-    margin-right: 250px;
-    margin-left: 50px;
+    margin-right: 25%;
+    margin-left: 2%;
     font-size: 20px;   
 }
 .opciones{
@@ -58,3 +58,14 @@
     color: burlywood;
 }
 
+
+@media(max-width:980px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    .menuinicial{
+        width: 100%;
+        height: auto;
+    }
+}

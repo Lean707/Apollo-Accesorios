@@ -2,7 +2,7 @@
 .piedepagina nav{
     display: flex;
     list-style-type: none;
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color: burlywood;
     justify-content: space-around;
